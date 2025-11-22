@@ -25,6 +25,15 @@ class recordingincome:
   self.expense_entry.grid(row=1, column=1)
   tk.Button(root, text="Add", command=self.add_reminder).grid(row=2, column=2)
 
-  #bill reminder 
-  
+  #Bill reminder
+  tk.Label(root, text="Add Bill Reminder").grid(row=2, column=0)
+  self.reminder_entry =tk.Entry(root)
+  self.reminder_entry.grid(row=2, column=1)
+  tk.Button(root, text="Add", command=self.add_reminder).grid(row=2, column=2)
+
+  #Financial Goal
+  tk.Label(root, text="Goal:").grid(row=3, column=0)
+  self.goal_entry = tk.Entry(root)
+  self.goal_entry.grid(row=3, column=1)
+  tk.Button(root, text="Add", command=self.add_goal).grid(row=3, column=2)
   
