@@ -1,0 +1,54 @@
+I’m sharing the instructions to run the BudgetApp program:
+
+Requirements
+
+Python 3.x installed (download from python.org
+)
+
+Tkinter (included with Python by default)
+
+Download the Code
+
+Save the program as budget_app.py on your computer.
+
+Run the Program
+
+Using Command Line / Terminal:
+
+Open a terminal and navigate to the folder containing budget_app.py
+
+cd path\to\your\folder
+
+
+Run the program:
+
+python budget_app.py
+
+
+Using an IDE:
+
+Open budget_app.py in an IDE like PyCharm, VS Code, or IDLE.
+
+Click Run or press the run shortcut (F5 or Shift+F10).
+
+Using the App
+
+Set Monthly Income: Enter your monthly income and click Set monthly.
+
+Add Expenses: Enter the expense name, amount, and date, then click Add Expense.
+
+Add Reminders: Enter the reminder details and click Add Reminder.
+
+Add Goals: Enter your financial goals and click Add Goal.
+
+Check Balance: Click Calculate Balance to see remaining balance and goal status.
+
+View Entries: Use Show Expenses, Show Reminders, or Show Goals buttons to view details.
+
+Notes
+
+Enter amounts as numbers (decimals allowed).
+
+Dates must be in YYYY-MM-DD format.
+
+Data is not saved after closing the app unless modifications are made to store it.
