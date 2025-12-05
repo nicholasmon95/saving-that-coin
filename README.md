@@ -1,4 +1,4 @@
-# saving-that-coin - Budget appThis project
+# saving-that-coin - Budget app (project)
 
 A simple personal budget tracker built with Python and Tkinter.
 This app allows you to record income, track expenses, set reminders, define goals, and calculate your remining balance.
